@@ -25,15 +25,15 @@ class Config:
                 "ALWAYS_DEPLOY_LATEST", default=False, cast=bool
             )
             self.ALLOW_ACTION = config("ALLOW_ACTION", default=True, cast=bool)
-            self.APP_ID = config("APP_ID", default=6, cast=int)
+            self.APP_ID = config("APP_ID", "29961447")
             self.API_HASH = config(
-                "API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e"
+                "API_HASH", "be2e07ad90b5c8b5d368cb4efd302568"
             )
             self.ARIA2_PORT = config("ARIA2_PORT", default=6800, cast=int)
-            self.BOT_TOKEN = config("BOT_TOKEN")
+            self.BOT_TOKEN = config("BOT_TOKEN", "7392080057:AAHB-KJ_ybiteYsBKnPoq2ABh466CmoU818")
             self.CACHE_DL = config("CACHE_DL", default=False, cast=bool)
             self.CAP_DECO = config("CAP_DECO", default="◉")
-            self.C_LINK = config("C_LINK", default="@ANi_MiNE")
+            self.C_LINK = config("C_LINK", default="@Animes_India_bot")
             self.CMD_SUFFIX = config("CMD_SUFFIX", default=str())
             self.COMP_MODE = config("COMPATIBILITY_MODE", default=True, cast=bool)
             self.CUSTOM_RENAME = config("CUSTOM_RENAME", default=None)
@@ -69,7 +69,7 @@ class Config:
             self.NO_BANNER = config("NO_BANNER", default=False, cast=bool)
             self.NO_TEMP_PM = config("NO_TEMP_PM", default=False, cast=bool)
             self.OVR = config("OVR", default=None)
-            self.OWNER = config("OWNER")
+            self.OWNER = config("OWNER", "5446367898")
             self.PAUSE_ON_DL_INFO = config("PODI", default=True, cast=bool)
             self.QDL_TIMEOUT = config("QBIT_DL_TIMEOUT", default=0, cast=int)
             self.QBIT_PORT = config("QBIT_PORT", default=8090, cast=int)
